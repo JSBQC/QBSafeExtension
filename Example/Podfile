@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QBSafeExtension_Tests' do
+  pod 'QBSafeExtension', :path => '../'
+  
+  
+end
