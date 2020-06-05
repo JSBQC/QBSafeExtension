@@ -7,12 +7,6 @@ description:
 
 
 
-Author:
-
-	QB, sobluewhat@163.com
-
-
-
 ## Installation
 
 QBSafeExtension is available through [CocoaPods](https://cocoapods.org). To install
