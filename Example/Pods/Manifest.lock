@@ -1,0 +1,16 @@
+PODS:
+  - QBSafeExtension (0.1.0)
+
+DEPENDENCIES:
+  - QBSafeExtension (from `../`)
+
+EXTERNAL SOURCES:
+  QBSafeExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QBSafeExtension: 167b31bd7f75725bfa8a0a26cb7cb29405107a66
+
+PODFILE CHECKSUM: dc685a99964ad98e87ee7e143edd0c23113cb024
+
+COCOAPODS: 1.9.1

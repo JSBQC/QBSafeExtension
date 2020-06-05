@@ -1,0 +1,6 @@
+framework module QBSafeExtension {
+  umbrella header "QBSafeExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
