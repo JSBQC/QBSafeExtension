@@ -1,22 +1,26 @@
 {
   "name": "QBSafeExtension",
-  "version": "0.1.0",
-  "summary": "A short description of QBSafeExtension.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sobluebird/QBSafeExtension",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "1.0.0",
+  "summary": "NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止崩溃",
+  "description": "TODO: 对NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃.",
+  "homepage": "https://gitee.com/sofreebird/QBSafeExtension",
+  "license": "MIT",
   "authors": {
-    "sobluebird": "chenqb@workai.com.cn"
+    "QB": "sobluewhat@163.com"
   },
   "source": {
-    "git": "https://github.com/sobluebird/QBSafeExtension.git",
-    "tag": "0.1.0"
+    "git": "https://gitee.com/sofreebird/QBSafeExtension.git",
+    "tag": "1.0.0"
   },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "public_header_files": "Classes/*.h",
   "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "QBSafeExtension/Classes/**/*"
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
 }

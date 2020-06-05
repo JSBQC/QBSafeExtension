@@ -1,5 +1,5 @@
 PODS:
-  - QBSafeExtension (0.1.0)
+  - QBSafeExtension (1.0.0)
 
 DEPENDENCIES:
   - QBSafeExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QBSafeExtension: 167b31bd7f75725bfa8a0a26cb7cb29405107a66
+  QBSafeExtension: bc6aa2d130542704fb9734d0b9077f1b4e321ede
 
 PODFILE CHECKSUM: dc685a99964ad98e87ee7e143edd0c23113cb024
 
