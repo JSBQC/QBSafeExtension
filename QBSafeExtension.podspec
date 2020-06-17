@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     TODO: 对NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃.
                    DESC
 
-  s.homepage         = 'https://github.com/sobluebird/QBSafeExtension'
+  s.homepage         = 'https://github.com/JSBQC/QBSafeExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'QB' => 'sobluewhat@163.com' }
-  s.source           = { :git => 'https://github.com/sobluebird/QBSafeExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JSBQC/QBSafeExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
