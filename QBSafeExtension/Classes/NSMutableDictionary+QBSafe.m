@@ -19,24 +19,24 @@
 
 - (void)swizzling_setObject:(id)value forKey:(NSString *)key
 {
-    NSLog(@"%s", __func__);
+//    NSLog(@"%s", __func__);
     if (!value || !key) {
            return;
        }
        
        [self swizzling_setObject:value forKey:key];
-       NSLog(@"");
+//       NSLog(@"");
 }
 
 - (void)swizzling_setObject:(id)obj forKeyedSubscript:(id<NSCopying>)key
 {
-    NSLog(@"%s", __func__);
+//    NSLog(@"%s", __func__);
     if (!obj) {
         return;
     }
     
     [self swizzling_setObject:obj forKeyedSubscript:key];
-    NSLog(@"");
+//    NSLog(@"");
 }
 
 @end

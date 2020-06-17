@@ -6,23 +6,24 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		C6DEF518BC7FA57EC684DCBE12120C95 /* QBSafeExtension */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D9D2D756C7E2722E0C8E9B4B1D5C4259 /* Build configuration list for PBXAggregateTarget "QBSafeExtension" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = QBSafeExtension;
-			productName = QBSafeExtension;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		26871CC656AAB071AEA0C542FD93D5B5 /* Pods-QBSafeExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B940CD34F28C15FC120AC081D94E4F2 /* Pods-QBSafeExtension_Tests-dummy.m */; };
+		0C96B6DC6E87FB85B1A2A415DD36A53F /* QBSafeExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CE3ABE79862591EE42AAE9294C4154 /* QBSafeExtension-dummy.m */; };
+		23361101C325F1482838ECA6FC04F6CA /* NSObject+QBExchangeImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26871CC656AAB071AEA0C542FD93D5B5 /* Pods-QBSafeExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07764159538AC5B5D9266B0BEC99B46 /* Pods-QBSafeExtension_Tests-dummy.m */; };
+		579BAFFF80467AAE4432A4321C38457F /* NSMutableArray+QBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56BEBDEE021B52CDB55F240CD3CDD6 /* NSMutableArray+QBSafe.m */; };
+		692D9402BAEACDB62BD240F4ACAEE183 /* NSArray+QBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F094E4386A796CE815437C7E62A91 /* NSArray+QBSafe.m */; };
+		82D0FD97190F07FB0D067D13B0A2257A /* NSMutableArray+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A713DEDDCE84944C47FF13324CDD57 /* NSMutableArray+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD9649774ED795F055D9B0F28E9525F /* NSDictionary+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0E5E977D6207CD155DD418616776DA /* NSMutableDictionary+QBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3396684A6C5F5447027458F7D472567A /* NSMutableDictionary+QBSafe.m */; };
 		A27E1451CB03CB3CFF719BA411188F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C5CDD20439F32B9E8270DAB3FCB1B2B4 /* Pods-QBSafeExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5D4B6B7242D5A562AC1C3CB3871B50 /* Pods-QBSafeExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4ACDEA08C7592F48C065AF67E69A407 /* NSObject+QBExchangeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */; };
+		AD63F263B98C8BF7DCFBB89E0DD4D7A6 /* NSDictionary+QBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 469F1F96BF3BD800FF9A05F3EE9387D9 /* NSDictionary+QBSafe.m */; };
+		B24597364D3269B54835F7F2EA3259BB /* QBSafeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E63D4C85A700997D951B0772731E422 /* QBSafeExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F26D1F1D60B11E75027C9CC59B90DA /* NSMutableDictionary+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5CDD20439F32B9E8270DAB3FCB1B2B4 /* Pods-QBSafeExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5332080F50FFB3B82AFBE651F9A219 /* Pods-QBSafeExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9969770CA1E6049EBFA57355909350E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F3832D46E69E41210BA018B364002D4A /* NSArray+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AB4C70D261CF26BD36744055E5C065 /* QBSafeExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D941BE2D8BE480F90C7D50DAC29ACB26 /* QBSafeExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,22 +37,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5D4B6B7242D5A562AC1C3CB3871B50 /* Pods-QBSafeExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBSafeExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		26E04BFF87894F69C66C142EB4886BA9 /* Pods-QBSafeExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBSafeExtension_Tests.modulemap"; sourceTree = "<group>"; };
-		26E47AF272265396A1BEE207EE771FD5 /* Pods-QBSafeExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		08DEDD1D123FEC72B814027220D98440 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F5332080F50FFB3B82AFBE651F9A219 /* Pods-QBSafeExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBSafeExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		150BD18786DED3EB59F285F43EF05511 /* Pods-QBSafeExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EA14F205DB8D4FDAE4B597E6C469FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		322FEDA62422DE6351D55C9D8358456E /* Pods-QBSafeExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBSafeExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C8B6E15DF8EB3E383EE9AA7C9AB7DC2 /* Pods-QBSafeExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBSafeExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4824736E21C9AEE9B5875FA7280C851A /* QBSafeExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBSafeExtension.release.xcconfig; sourceTree = "<group>"; };
-		550B08598D4BEA33A0C56E2E7DDEC43E /* Pods-QBSafeExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		648B1537702DB678008798F6798DC391 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7B940CD34F28C15FC120AC081D94E4F2 /* Pods-QBSafeExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBSafeExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBSafeExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE1A2E86EC5492A413D7BC3406CD540C /* Pods-QBSafeExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBSafeExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B48010390F99ED73947BE817905939AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DAFC85618C0BDC9C5BB7D0B6F8C8CC4B /* QBSafeExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QBSafeExtension.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		E59B675AA83A428F94FCFBE85EA5B4F0 /* QBSafeExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBSafeExtension.debug.xcconfig; sourceTree = "<group>"; };
+		3396684A6C5F5447027458F7D472567A /* NSMutableDictionary+QBSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+QBSafe.m"; path = "QBSafeExtension/Classes/NSMutableDictionary+QBSafe.m"; sourceTree = "<group>"; };
+		399A9BFBF084320CEA47F10FBC691231 /* Pods-QBSafeExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBSafeExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		3F56BEBDEE021B52CDB55F240CD3CDD6 /* NSMutableArray+QBSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+QBSafe.m"; path = "QBSafeExtension/Classes/NSMutableArray+QBSafe.m"; sourceTree = "<group>"; };
+		469F1F96BF3BD800FF9A05F3EE9387D9 /* NSDictionary+QBSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+QBSafe.m"; path = "QBSafeExtension/Classes/NSDictionary+QBSafe.m"; sourceTree = "<group>"; };
+		483F094E4386A796CE815437C7E62A91 /* NSArray+QBSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+QBSafe.m"; path = "QBSafeExtension/Classes/NSArray+QBSafe.m"; sourceTree = "<group>"; };
+		4CFB0C3D168545E5376DA48F43D99271 /* QBSafeExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBSafeExtension.debug.xcconfig; sourceTree = "<group>"; };
+		55CE3ABE79862591EE42AAE9294C4154 /* QBSafeExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBSafeExtension-dummy.m"; sourceTree = "<group>"; };
+		5BF606A33F51498F3A2B51E0DB9CF706 /* QBSafeExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBSafeExtension.release.xcconfig; sourceTree = "<group>"; };
+		61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QBExchangeImp.h"; path = "QBSafeExtension/Classes/NSObject+QBExchangeImp.h"; sourceTree = "<group>"; };
+		64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+QBSafe.h"; path = "QBSafeExtension/Classes/NSMutableDictionary+QBSafe.h"; sourceTree = "<group>"; };
+		70152B6996C0C205152090D76FFFC99A /* Pods-QBSafeExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBSafeExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70B8292905F20376E33F36AD51EBF893 /* QBSafeExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBSafeExtension.framework; path = QBSafeExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846CFE1A826C3158883BC90D73055E68 /* QBSafeExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBSafeExtension-prefix.pch"; sourceTree = "<group>"; };
+		8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBSafeExtension_Tests.framework; path = "Pods-QBSafeExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QBExchangeImp.m"; path = "QBSafeExtension/Classes/NSObject+QBExchangeImp.m"; sourceTree = "<group>"; };
+		8E63D4C85A700997D951B0772731E422 /* QBSafeExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBSafeExtension.h; path = QBSafeExtension/Classes/QBSafeExtension.h; sourceTree = "<group>"; };
+		9C205AFD97E6044966B296ABF5F63F03 /* QBSafeExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBSafeExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QBSafe.h"; path = "QBSafeExtension/Classes/NSDictionary+QBSafe.h"; sourceTree = "<group>"; };
+		9F21DF2AD5AC98DB6AC660F7EE04769F /* QBSafeExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBSafeExtension-Info.plist"; sourceTree = "<group>"; };
+		A2A296EE1F18B81ABAEA369CFB3677D0 /* Pods-QBSafeExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBSafeExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3DE8FBDB6267F9EB6D775D1DC34BA00 /* Pods-QBSafeExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBSafeExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C07F657E704DE3790EB0AFF4F60AB9 /* QBSafeExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBSafeExtension.modulemap; sourceTree = "<group>"; };
+		AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+QBSafe.h"; path = "QBSafeExtension/Classes/NSArray+QBSafe.h"; sourceTree = "<group>"; };
+		BF036BAABA0D3047B7B83A792443AF35 /* Pods-QBSafeExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBSafeExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D1A713DEDDCE84944C47FF13324CDD57 /* NSMutableArray+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QBSafe.h"; path = "QBSafeExtension/Classes/NSMutableArray+QBSafe.h"; sourceTree = "<group>"; };
+		D941BE2D8BE480F90C7D50DAC29ACB26 /* QBSafeExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBSafeExtension-umbrella.h"; sourceTree = "<group>"; };
+		DBA3594C8057822D3F5DEA437DA5A694 /* Pods-QBSafeExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		E07764159538AC5B5D9266B0BEC99B46 /* Pods-QBSafeExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBSafeExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,27 +82,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E70F6217B6A18B3F419AA2B3E7795D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9969770CA1E6049EBFA57355909350E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A46CA9780C86C705314BDCBB890EB07 /* Pod */ = {
+		35245B75F4474A2BD0E520A41B400A11 /* QBSafeExtension */ = {
 			isa = PBXGroup;
 			children = (
-				B48010390F99ED73947BE817905939AB /* LICENSE */,
-				DAFC85618C0BDC9C5BB7D0B6F8C8CC4B /* QBSafeExtension.podspec */,
-				648B1537702DB678008798F6798DC391 /* README.md */,
+				AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */,
+				483F094E4386A796CE815437C7E62A91 /* NSArray+QBSafe.m */,
+				9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */,
+				469F1F96BF3BD800FF9A05F3EE9387D9 /* NSDictionary+QBSafe.m */,
+				D1A713DEDDCE84944C47FF13324CDD57 /* NSMutableArray+QBSafe.h */,
+				3F56BEBDEE021B52CDB55F240CD3CDD6 /* NSMutableArray+QBSafe.m */,
+				64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */,
+				3396684A6C5F5447027458F7D472567A /* NSMutableDictionary+QBSafe.m */,
+				61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */,
+				8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */,
+				8E63D4C85A700997D951B0772731E422 /* QBSafeExtension.h */,
+				708CC8BC529FE795DB21175B3B8A715A /* Pod */,
+				D73126D3CB277A70C706442407298C11 /* Support Files */,
+			);
+			name = QBSafeExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		383117644FADA66A9A818DE96DEB3874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */,
+				70B8292905F20376E33F36AD51EBF893 /* QBSafeExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708CC8BC529FE795DB21175B3B8A715A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1EA14F205DB8D4FDAE4B597E6C469FCE /* LICENSE */,
+				9C205AFD97E6044966B296ABF5F63F03 /* QBSafeExtension.podspec */,
+				08DEDD1D123FEC72B814027220D98440 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7F1B637629FB96974F0FB98BDBCB9FD6 /* QBSafeExtension */ = {
+		979F41AB363BD14EB389594FA6F485FC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A46CA9780C86C705314BDCBB890EB07 /* Pod */,
-				F6F1F948E24F3F8193A5851BA45DDFA2 /* Support Files */,
+				35245B75F4474A2BD0E520A41B400A11 /* QBSafeExtension */,
 			);
-			name = QBSafeExtension;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B3F0CA6F24BA606957F54B03A9D9732 /* Pods-QBSafeExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				399A9BFBF084320CEA47F10FBC691231 /* Pods-QBSafeExtension_Tests.modulemap */,
+				A2A296EE1F18B81ABAEA369CFB3677D0 /* Pods-QBSafeExtension_Tests-acknowledgements.markdown */,
+				150BD18786DED3EB59F285F43EF05511 /* Pods-QBSafeExtension_Tests-acknowledgements.plist */,
+				E07764159538AC5B5D9266B0BEC99B46 /* Pods-QBSafeExtension_Tests-dummy.m */,
+				BF036BAABA0D3047B7B83A792443AF35 /* Pods-QBSafeExtension_Tests-frameworks.sh */,
+				DBA3594C8057822D3F5DEA437DA5A694 /* Pods-QBSafeExtension_Tests-Info.plist */,
+				0F5332080F50FFB3B82AFBE651F9A219 /* Pods-QBSafeExtension_Tests-umbrella.h */,
+				A3DE8FBDB6267F9EB6D775D1DC34BA00 /* Pods-QBSafeExtension_Tests.debug.xcconfig */,
+				70152B6996C0C205152090D76FFFC99A /* Pods-QBSafeExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-QBSafeExtension_Tests";
+			path = "Target Support Files/Pods-QBSafeExtension_Tests";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -94,46 +166,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C34AAFD0B591FF0C6561E9AFBC213235 /* Products */ = {
+		C331D19DCA93FF91C054824C8E794852 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */,
+				9B3F0CA6F24BA606957F54B03A9D9732 /* Pods-QBSafeExtension_Tests */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CD72483A1EB01D8C2F6D7D1E1192814E /* Pods-QBSafeExtension_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				26E04BFF87894F69C66C142EB4886BA9 /* Pods-QBSafeExtension_Tests.modulemap */,
-				322FEDA62422DE6351D55C9D8358456E /* Pods-QBSafeExtension_Tests-acknowledgements.markdown */,
-				550B08598D4BEA33A0C56E2E7DDEC43E /* Pods-QBSafeExtension_Tests-acknowledgements.plist */,
-				7B940CD34F28C15FC120AC081D94E4F2 /* Pods-QBSafeExtension_Tests-dummy.m */,
-				26E47AF272265396A1BEE207EE771FD5 /* Pods-QBSafeExtension_Tests-Info.plist */,
-				0C5D4B6B7242D5A562AC1C3CB3871B50 /* Pods-QBSafeExtension_Tests-umbrella.h */,
-				3C8B6E15DF8EB3E383EE9AA7C9AB7DC2 /* Pods-QBSafeExtension_Tests.debug.xcconfig */,
-				AE1A2E86EC5492A413D7BC3406CD540C /* Pods-QBSafeExtension_Tests.release.xcconfig */,
-			);
-			name = "Pods-QBSafeExtension_Tests";
-			path = "Target Support Files/Pods-QBSafeExtension_Tests";
-			sourceTree = "<group>";
-		};
-		CE8C133C26C4802BF121B4315936E613 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7F1B637629FB96974F0FB98BDBCB9FD6 /* QBSafeExtension */,
-			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE8C133C26C4802BF121B4315936E613 /* Development Pods */,
+				979F41AB363BD14EB389594FA6F485FC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C34AAFD0B591FF0C6561E9AFBC213235 /* Products */,
-				DF59D216D0A6C88F426E5C87BB1AD64D /* Targets Support Files */,
+				383117644FADA66A9A818DE96DEB3874 /* Products */,
+				C331D19DCA93FF91C054824C8E794852 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,19 +193,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF59D216D0A6C88F426E5C87BB1AD64D /* Targets Support Files */ = {
+		D73126D3CB277A70C706442407298C11 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD72483A1EB01D8C2F6D7D1E1192814E /* Pods-QBSafeExtension_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F6F1F948E24F3F8193A5851BA45DDFA2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E59B675AA83A428F94FCFBE85EA5B4F0 /* QBSafeExtension.debug.xcconfig */,
-				4824736E21C9AEE9B5875FA7280C851A /* QBSafeExtension.release.xcconfig */,
+				A5C07F657E704DE3790EB0AFF4F60AB9 /* QBSafeExtension.modulemap */,
+				55CE3ABE79862591EE42AAE9294C4154 /* QBSafeExtension-dummy.m */,
+				9F21DF2AD5AC98DB6AC660F7EE04769F /* QBSafeExtension-Info.plist */,
+				846CFE1A826C3158883BC90D73055E68 /* QBSafeExtension-prefix.pch */,
+				D941BE2D8BE480F90C7D50DAC29ACB26 /* QBSafeExtension-umbrella.h */,
+				4CFB0C3D168545E5376DA48F43D99271 /* QBSafeExtension.debug.xcconfig */,
+				5BF606A33F51498F3A2B51E0DB9CF706 /* QBSafeExtension.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QBSafeExtension";
@@ -171,6 +216,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5CDD20439F32B9E8270DAB3FCB1B2B4 /* Pods-QBSafeExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0D4F5EE276E0C2EBA80BF0787A2D04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3832D46E69E41210BA018B364002D4A /* NSArray+QBSafe.h in Headers */,
+				8CD9649774ED795F055D9B0F28E9525F /* NSDictionary+QBSafe.h in Headers */,
+				82D0FD97190F07FB0D067D13B0A2257A /* NSMutableArray+QBSafe.h in Headers */,
+				C1F26D1F1D60B11E75027C9CC59B90DA /* NSMutableDictionary+QBSafe.h in Headers */,
+				23361101C325F1482838ECA6FC04F6CA /* NSObject+QBExchangeImp.h in Headers */,
+				F5AB4C70D261CF26BD36744055E5C065 /* QBSafeExtension-umbrella.h in Headers */,
+				B24597364D3269B54835F7F2EA3259BB /* QBSafeExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +255,24 @@
 			productReference = 8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C6DEF518BC7FA57EC684DCBE12120C95 /* QBSafeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC031583233D13014341ECE34C09933 /* Build configuration list for PBXNativeTarget "QBSafeExtension" */;
+			buildPhases = (
+				FD0D4F5EE276E0C2EBA80BF0787A2D04 /* Headers */,
+				830BE824642AA25ACE193FFF273AEAA8 /* Sources */,
+				E70F6217B6A18B3F419AA2B3E7795D00 /* Frameworks */,
+				931E1167CE36CC10743DF40228611D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBSafeExtension;
+			productName = QBSafeExtension;
+			productReference = 70B8292905F20376E33F36AD51EBF893 /* QBSafeExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,7 +291,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C34AAFD0B591FF0C6561E9AFBC213235 /* Products */;
+			productRefGroup = 383117644FADA66A9A818DE96DEB3874 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,6 +309,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		931E1167CE36CC10743DF40228611D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -240,6 +324,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				26871CC656AAB071AEA0C542FD93D5B5 /* Pods-QBSafeExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BE824642AA25ACE193FFF273AEAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D9402BAEACDB62BD240F4ACAEE183 /* NSArray+QBSafe.m in Sources */,
+				AD63F263B98C8BF7DCFBB89E0DD4D7A6 /* NSDictionary+QBSafe.m in Sources */,
+				579BAFFF80467AAE4432A4321C38457F /* NSMutableArray+QBSafe.m in Sources */,
+				9F0E5E977D6207CD155DD418616776DA /* NSMutableDictionary+QBSafe.m in Sources */,
+				A4ACDEA08C7592F48C065AF67E69A407 /* NSObject+QBExchangeImp.m in Sources */,
+				0C96B6DC6E87FB85B1A2A415DD36A53F /* QBSafeExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +352,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		24232B1D3F1F91264BF436BC78AD6093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFB0C3D168545E5376DA48F43D99271 /* QBSafeExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBSafeExtension/QBSafeExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBSafeExtension/QBSafeExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBSafeExtension/QBSafeExtension.modulemap";
+				PRODUCT_MODULE_NAME = QBSafeExtension;
+				PRODUCT_NAME = QBSafeExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6C3B5D9CF1FA3D44FC6E653394431799 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE1A2E86EC5492A413D7BC3406CD540C /* Pods-QBSafeExtension_Tests.release.xcconfig */;
+			baseConfigurationReference = 70152B6996C0C205152090D76FFFC99A /* Pods-QBSafeExtension_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -289,22 +417,9 @@
 			};
 			name = Release;
 		};
-		84EE08760FC6A0AF4E4BFED4F8678023 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E59B675AA83A428F94FCFBE85EA5B4F0 /* QBSafeExtension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		879D50DD42D99B2D8E66C1E1657FCBA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C8B6E15DF8EB3E383EE9AA7C9AB7DC2 /* Pods-QBSafeExtension_Tests.debug.xcconfig */;
+			baseConfigurationReference = A3DE8FBDB6267F9EB6D775D1DC34BA00 /* Pods-QBSafeExtension_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -388,7 +503,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -458,17 +574,35 @@
 			};
 			name = Debug;
 		};
-		F1FCF2B18C4AA491F40A45BDE8E3C647 /* Release */ = {
+		BE52D4BD8C9EC082AB1128873BD0D8DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4824736E21C9AEE9B5875FA7280C851A /* QBSafeExtension.release.xcconfig */;
+			baseConfigurationReference = 5BF606A33F51498F3A2B51E0DB9CF706 /* QBSafeExtension.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBSafeExtension/QBSafeExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBSafeExtension/QBSafeExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBSafeExtension/QBSafeExtension.modulemap";
+				PRODUCT_MODULE_NAME = QBSafeExtension;
+				PRODUCT_NAME = QBSafeExtension;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -484,20 +618,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0BC031583233D13014341ECE34C09933 /* Build configuration list for PBXNativeTarget "QBSafeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24232B1D3F1F91264BF436BC78AD6093 /* Debug */,
+				BE52D4BD8C9EC082AB1128873BD0D8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9D2D756C7E2722E0C8E9B4B1D5C4259 /* Build configuration list for PBXAggregateTarget "QBSafeExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84EE08760FC6A0AF4E4BFED4F8678023 /* Debug */,
-				F1FCF2B18C4AA491F40A45BDE8E3C647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
