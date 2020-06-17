@@ -20,6 +20,7 @@
     for (NSInteger i = 0; i < cnt; i++) {
         
         if(objects[i] == nil || keys[i] == nil) {
+                QBLog(@"NSDictionary+QBSafe  添加的key 或  Obj有nil数据");
             break;;
         }
         j++;

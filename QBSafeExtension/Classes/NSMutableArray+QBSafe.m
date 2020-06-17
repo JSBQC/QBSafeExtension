@@ -20,6 +20,7 @@
 {
 //    NSLog(@"");
     if (!anObject) {
+         QBLog(@"NSMutableArray+QBSafe  添加的anObject为空");
         return;
     }
     [self swizzed_insertObject:anObject atIndex:index];

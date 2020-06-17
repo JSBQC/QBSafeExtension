@@ -21,6 +21,7 @@
     for (NSUInteger i = 0; i < cnt; i++) {
         // 这里只做value 为nil的处理 对key为nil不做处理
         if (objects[i] == nil) {
+                QBLog(@"NSArray+QBSafe  添加的 Obj 有nil数据");
             break;
         }
         j++;

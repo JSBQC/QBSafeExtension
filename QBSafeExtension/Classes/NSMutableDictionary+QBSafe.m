@@ -19,24 +19,22 @@
 
 - (void)swizzling_setObject:(id)value forKey:(NSString *)key
 {
-//    NSLog(@"%s", __func__);
     if (!value || !key) {
-           return;
-       }
-       
-       [self swizzling_setObject:value forKey:key];
-//       NSLog(@"");
+        QBLog(@"NSMutableDictionary+QBSafe  添加的value or  Obj 为空");
+        return;
+    }
+    
+    [self swizzling_setObject:value forKey:key];
 }
 
 - (void)swizzling_setObject:(id)obj forKeyedSubscript:(id<NSCopying>)key
 {
-//    NSLog(@"%s", __func__);
-    if (!obj) {
+    if (!obj || !key) {
+        QBLog(@"NSMutableDictionary+QBSafe  添加的key 或 Obj 为空");
         return;
     }
     
     [self swizzling_setObject:obj forKeyedSubscript:key];
-//    NSLog(@"");
 }
 
 @end

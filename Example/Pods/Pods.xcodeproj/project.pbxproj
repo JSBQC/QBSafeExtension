@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08DEDD1D123FEC72B814027220D98440 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08DEDD1D123FEC72B814027220D98440 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F5332080F50FFB3B82AFBE651F9A219 /* Pods-QBSafeExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBSafeExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		150BD18786DED3EB59F285F43EF05511 /* Pods-QBSafeExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1EA14F205DB8D4FDAE4B597E6C469FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1EA14F205DB8D4FDAE4B597E6C469FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3396684A6C5F5447027458F7D472567A /* NSMutableDictionary+QBSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+QBSafe.m"; path = "QBSafeExtension/Classes/NSMutableDictionary+QBSafe.m"; sourceTree = "<group>"; };
 		399A9BFBF084320CEA47F10FBC691231 /* Pods-QBSafeExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBSafeExtension_Tests.modulemap"; sourceTree = "<group>"; };
@@ -53,13 +53,13 @@
 		61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QBExchangeImp.h"; path = "QBSafeExtension/Classes/NSObject+QBExchangeImp.h"; sourceTree = "<group>"; };
 		64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+QBSafe.h"; path = "QBSafeExtension/Classes/NSMutableDictionary+QBSafe.h"; sourceTree = "<group>"; };
 		70152B6996C0C205152090D76FFFC99A /* Pods-QBSafeExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBSafeExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		70B8292905F20376E33F36AD51EBF893 /* QBSafeExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBSafeExtension.framework; path = QBSafeExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B8292905F20376E33F36AD51EBF893 /* QBSafeExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QBSafeExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846CFE1A826C3158883BC90D73055E68 /* QBSafeExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBSafeExtension-prefix.pch"; sourceTree = "<group>"; };
-		8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBSafeExtension_Tests.framework; path = "Pods-QBSafeExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8905A4D7A3B6EF1635631C81B16BCE81 /* Pods_QBSafeExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBSafeExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QBExchangeImp.m"; path = "QBSafeExtension/Classes/NSObject+QBExchangeImp.m"; sourceTree = "<group>"; };
 		8E63D4C85A700997D951B0772731E422 /* QBSafeExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBSafeExtension.h; path = QBSafeExtension/Classes/QBSafeExtension.h; sourceTree = "<group>"; };
-		9C205AFD97E6044966B296ABF5F63F03 /* QBSafeExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBSafeExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C205AFD97E6044966B296ABF5F63F03 /* QBSafeExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QBSafeExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QBSafe.h"; path = "QBSafeExtension/Classes/NSDictionary+QBSafe.h"; sourceTree = "<group>"; };
 		9F21DF2AD5AC98DB6AC660F7EE04769F /* QBSafeExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBSafeExtension-Info.plist"; sourceTree = "<group>"; };
 		A2A296EE1F18B81ABAEA369CFB3677D0 /* Pods-QBSafeExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBSafeExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -96,6 +96,8 @@
 		35245B75F4474A2BD0E520A41B400A11 /* QBSafeExtension */ = {
 			isa = PBXGroup;
 			children = (
+				61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */,
+				8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */,
 				AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */,
 				483F094E4386A796CE815437C7E62A91 /* NSArray+QBSafe.m */,
 				9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */,
@@ -104,8 +106,6 @@
 				3F56BEBDEE021B52CDB55F240CD3CDD6 /* NSMutableArray+QBSafe.m */,
 				64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */,
 				3396684A6C5F5447027458F7D472567A /* NSMutableDictionary+QBSafe.m */,
-				61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */,
-				8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */,
 				8E63D4C85A700997D951B0772731E422 /* QBSafeExtension.h */,
 				708CC8BC529FE795DB21175B3B8A715A /* Pod */,
 				D73126D3CB277A70C706442407298C11 /* Support Files */,
@@ -503,8 +503,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

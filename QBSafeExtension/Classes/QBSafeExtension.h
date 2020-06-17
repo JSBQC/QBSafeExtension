@@ -5,6 +5,10 @@
 //  Created by QB on 2020/6/3.
 //
 
+/*
+    Version: 1.0.1
+ */
+
 #ifndef QBSafeExtension_h
 #define QBSafeExtension_h
 
