@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QBSafeExtension'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = "NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止崩溃"
 
 # This description is used to generate tags and improve search results.

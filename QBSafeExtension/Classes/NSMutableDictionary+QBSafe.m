@@ -12,8 +12,11 @@
 
 + (void)load {
     Class class = NSClassFromString(@"__NSDictionaryM");
+    
     [self exchangeIMP_InstanceSelectorA:@selector(swizzling_setObject:forKey:) InstanceSelectorB:@selector(setObject:forKey:) WithClass:class];
+    
     [self exchangeIMP_InstanceSelectorA:@selector(setObject:forKeyedSubscript:) InstanceSelectorB:@selector(swizzling_setObject:forKeyedSubscript:) WithClass:class];
+    
     [self exchangeIMP_InstanceSelectorA:@selector(removeObjectForKey:) InstanceSelectorB:@selector(swizzling_removeObjectForKey:) WithClass:class];
 }
 

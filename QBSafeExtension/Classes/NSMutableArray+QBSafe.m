@@ -12,10 +12,14 @@
 @implementation NSMutableArray (QBSafe)
 + (void)load {
     Class class = NSClassFromString(@"__NSArrayM");
+    
     [self exchangeIMP_InstanceSelectorA:@selector(insertObject:atIndex:) InstanceSelectorB:@selector(swizzed_insertObject:atIndex:) WithClass:class];
+    
     [self exchangeIMP_InstanceSelectorA:@selector(objectAtIndex:) InstanceSelectorB:@selector(swizzed_objectAtIndex:) WithClass:class];
     
     [self exchangeIMP_InstanceSelectorA:@selector(removeObjectsInRange:) InstanceSelectorB:@selector(swizzed_removeObjectsInRange:) WithClass:class];
+    
+    [self exchangeIMP_InstanceSelectorA:@selector(exchangeObjectAtIndex: withObjectAtIndex:) InstanceSelectorB:@selector(swizzed_exchangeObjectAtIndex: withObjectAtIndex:) WithClass:class];
 }
 
 
@@ -48,6 +52,13 @@
     }
 }
 
+- (void)swizzed_exchangeObjectAtIndex:(NSUInteger)idx1 withObjectAtIndex:(NSUInteger)idx2
+{
+    NSInteger count = self.count;
+    if(idx1!=idx2 && idx1<(count-1) && idx2<(count-1)) {
+        [self swizzed_exchangeObjectAtIndex:idx1 withObjectAtIndex:idx2];
+    }
+}
 
 
 @end

@@ -11,7 +11,7 @@
 @implementation NSDictionary (QBSafe)
 
 + (void)load {
-    [self exchangeIMP_InstanceSelectorA:@selector(swizzling_initWithObjects: forKeys:count:) InstanceSelectorB:@selector(initWithObjects:forKeys:count:) WithClass:NSClassFromString(@"__NSPlaceholderDictionary")];
+//    [self exchangeIMP_InstanceSelectorA:@selector(swizzling_initWithObjects: forKeys:count:) InstanceSelectorB:@selector(initWithObjects:forKeys:count:) WithClass:NSClassFromString(@"__NSPlaceholderDictionary")];
 }
 
 - (instancetype)swizzling_initWithObjects:(id  _Nonnull const [])objects forKeys:(id<NSCopying>  _Nonnull const [])keys count:(NSUInteger)cnt
@@ -20,7 +20,7 @@
     for (NSInteger i = 0; i < cnt; i++) {
         
         if(objects[i] == nil || keys[i] == nil) {
-                QBLog(@"NSDictionary+QBSafe  添加的key 或  Obj有nil数据");
+            QBLog(@"NSDictionary+QBSafe  添加的key 或  Obj有nil数据");
             break;;
         }
         j++;
