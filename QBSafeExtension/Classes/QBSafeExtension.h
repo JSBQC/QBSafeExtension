@@ -17,6 +17,7 @@
 #import "NSDictionary+QBSafe.h"
 #import "NSMutableArray+QBSafe.h"
 #import "NSMutableDictionary+QBSafe.h"
+#import "NSURL+Extension.h"
 
 
 #endif /* QBSafeExtension_h */

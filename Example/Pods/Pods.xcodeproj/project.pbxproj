@@ -22,6 +22,8 @@
 		C1F26D1F1D60B11E75027C9CC59B90DA /* NSMutableDictionary+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 64575E9B88668094D315A4C06280F2D2 /* NSMutableDictionary+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5CDD20439F32B9E8270DAB3FCB1B2B4 /* Pods-QBSafeExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5332080F50FFB3B82AFBE651F9A219 /* Pods-QBSafeExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9969770CA1E6049EBFA57355909350E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D6FCF9FE251B23EF00B7691F /* NSURL+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FCF9FC251B23EF00B7691F /* NSURL+Extension.h */; };
+		D6FCF9FF251B23EF00B7691F /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF9FD251B23EF00B7691F /* NSURL+Extension.m */; };
 		F3832D46E69E41210BA018B364002D4A /* NSArray+QBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5AB4C70D261CF26BD36744055E5C065 /* QBSafeExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D941BE2D8BE480F90C7D50DAC29ACB26 /* QBSafeExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -68,6 +70,8 @@
 		AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+QBSafe.h"; path = "QBSafeExtension/Classes/NSArray+QBSafe.h"; sourceTree = "<group>"; };
 		BF036BAABA0D3047B7B83A792443AF35 /* Pods-QBSafeExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBSafeExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D1A713DEDDCE84944C47FF13324CDD57 /* NSMutableArray+QBSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QBSafe.h"; path = "QBSafeExtension/Classes/NSMutableArray+QBSafe.h"; sourceTree = "<group>"; };
+		D6FCF9FC251B23EF00B7691F /* NSURL+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Extension.h"; path = "QBSafeExtension/Classes/NSURL+Extension.h"; sourceTree = "<group>"; };
+		D6FCF9FD251B23EF00B7691F /* NSURL+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Extension.m"; path = "QBSafeExtension/Classes/NSURL+Extension.m"; sourceTree = "<group>"; };
 		D941BE2D8BE480F90C7D50DAC29ACB26 /* QBSafeExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBSafeExtension-umbrella.h"; sourceTree = "<group>"; };
 		DBA3594C8057822D3F5DEA437DA5A694 /* Pods-QBSafeExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBSafeExtension_Tests-Info.plist"; sourceTree = "<group>"; };
 		E07764159538AC5B5D9266B0BEC99B46 /* Pods-QBSafeExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBSafeExtension_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				61F71F619E4472EDC57DCDF3A7AD660D /* NSObject+QBExchangeImp.h */,
 				8AEF3CD45E4C68D9A613FC6BE65A54E8 /* NSObject+QBExchangeImp.m */,
+				D6FCF9FC251B23EF00B7691F /* NSURL+Extension.h */,
+				D6FCF9FD251B23EF00B7691F /* NSURL+Extension.m */,
 				AEDEBE0A2E5B64693DDDD1D01B078A34 /* NSArray+QBSafe.h */,
 				483F094E4386A796CE815437C7E62A91 /* NSArray+QBSafe.m */,
 				9E5B212F80C2334C445E60FD5FDD9195 /* NSDictionary+QBSafe.h */,
@@ -226,6 +232,7 @@
 				F3832D46E69E41210BA018B364002D4A /* NSArray+QBSafe.h in Headers */,
 				8CD9649774ED795F055D9B0F28E9525F /* NSDictionary+QBSafe.h in Headers */,
 				82D0FD97190F07FB0D067D13B0A2257A /* NSMutableArray+QBSafe.h in Headers */,
+				D6FCF9FE251B23EF00B7691F /* NSURL+Extension.h in Headers */,
 				C1F26D1F1D60B11E75027C9CC59B90DA /* NSMutableDictionary+QBSafe.h in Headers */,
 				23361101C325F1482838ECA6FC04F6CA /* NSObject+QBExchangeImp.h in Headers */,
 				F5AB4C70D261CF26BD36744055E5C065 /* QBSafeExtension-umbrella.h in Headers */,
@@ -336,6 +343,7 @@
 				579BAFFF80467AAE4432A4321C38457F /* NSMutableArray+QBSafe.m in Sources */,
 				9F0E5E977D6207CD155DD418616776DA /* NSMutableDictionary+QBSafe.m in Sources */,
 				A4ACDEA08C7592F48C065AF67E69A407 /* NSObject+QBExchangeImp.m in Sources */,
+				D6FCF9FF251B23EF00B7691F /* NSURL+Extension.m in Sources */,
 				0C96B6DC6E87FB85B1A2A415DD36A53F /* QBSafeExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
