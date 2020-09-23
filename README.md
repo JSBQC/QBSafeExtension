@@ -3,7 +3,7 @@
 
 description:
 
-	对NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃.
+	对NSURL、NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃.
 
 
 
