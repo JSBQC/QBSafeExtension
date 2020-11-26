@@ -25,39 +25,51 @@
 
 - (void)swizzed_insertObject:(id)anObject atIndex:(NSUInteger)index
 {
+#ifdef DEBUG
+    [self swizzed_insertObject:anObject atIndex:index];
+#else
     if (anObject) {
         [self swizzed_insertObject:anObject atIndex:index];
     }
-    else {
-        QBLog(@"NSMutableArray+QBSafe  添加的anObject为空");
-    }
+#endif
 }
 
 - (id)swizzed_objectAtIndex:(NSUInteger)index {
+#ifdef DEBUG
+    return [self swizzed_objectAtIndex:index];
+#else
     if(index < self.count) {
         return [self swizzed_objectAtIndex:index];
     }
     else {
-        QBLog(@"NSMutableArray 数组越界");
         return nil;
     }
+#endif
 }
 
 - (void)swizzed_removeObjectsInRange:(NSRange)range {
+    
+#ifdef DEBUG
+    [self swizzed_removeObjectsInRange:range];
+#else
     if (range.location < self.count && (range.length+range.location <= self.count)) {
         [self swizzed_removeObjectsInRange:range];
     }
-    else {
-        QBLog(@"NSMutableArray range越界");
-    }
+#endif
+    
 }
 
 - (void)swizzed_exchangeObjectAtIndex:(NSUInteger)idx1 withObjectAtIndex:(NSUInteger)idx2
 {
+#ifdef DEBUG
+    return [self swizzed_exchangeObjectAtIndex:idx1 withObjectAtIndex:idx2];
+#else
     NSInteger count = self.count;
     if(idx1!=idx2 && idx1<(count-1) && idx2<(count-1)) {
         [self swizzed_exchangeObjectAtIndex:idx1 withObjectAtIndex:idx2];
     }
+#endif
+    
 }
 
 

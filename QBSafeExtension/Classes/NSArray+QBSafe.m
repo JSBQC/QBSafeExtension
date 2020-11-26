@@ -22,47 +22,62 @@
 
 - (instancetype)swizzling_initWithObjects:(id  _Nonnull const [])objects count:(NSUInteger)cnt
 {
+#ifdef DEBUG
+    return [self swizzling_initWithObjects:objects count:cnt];
+#else
     NSUInteger j = 0;
     for (NSUInteger i = 0; i < cnt; i++) {
         // 这里只做value 为nil的处理 对key为nil不做处理
         if (objects[i] == nil) {
-                QBLog(@"NSArray  添加的 Obj 有nil数据");
             break;
         }
         j++;
     }
     
     return [self swizzling_initWithObjects:objects count:j];
+#endif
+    
 }
 
 - (id)swizzling_NSArray0_objectAtIndex:(NSUInteger)index {
+#ifdef DEBUG
+    return [self swizzling_NSArray0_objectAtIndex:index];
+#else
     if (index < self.count) {
         return [self swizzling_NSArray0_objectAtIndex:index];
     }
     else {
-        QBLog(@"NSArray 数组越界");
         return nil;
     }
+#endif
+    
 }
 
 - (id)swizzling_NSSingleObjectArrayI_objectAtIndex:(NSUInteger)index {
+#ifdef DEBUG
+    return [self swizzling_NSSingleObjectArrayI_objectAtIndex:index];
+#else
     if (index < self.count) {
         return [self swizzling_NSSingleObjectArrayI_objectAtIndex:index];
     }
     else {
-        QBLog(@"NSArray 数组越界");
         return nil;
     }
+#endif
+    
 }
 
 - (id)swizzling_NSArrayI_objectAtIndex:(NSUInteger)index {
+#ifdef DEBUG
+    return [self swizzling_NSArrayI_objectAtIndex:index];
+#else
     if (index < self.count) {
         return [self swizzling_NSArrayI_objectAtIndex:index];
     }
     else {
-        QBLog(@"NSArray 数组越界");
         return nil;
     }
+#endif
 }
 
 @end

@@ -7,13 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-#ifdef DEBUG
-    #define QBLog(...)      NSLog(__VA_ARGS__)
-#else
-    #define QBLog(...)
-#endif
-
-
 
 NS_ASSUME_NONNULL_BEGIN
 

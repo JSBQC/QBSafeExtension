@@ -16,16 +16,19 @@
 
 - (instancetype)swizzling_initWithObjects:(id  _Nonnull const [])objects forKeys:(id<NSCopying>  _Nonnull const [])keys count:(NSUInteger)cnt
 {
+#ifdef DEBUG
+    return [self swizzling_initWithObjects:objects forKeys:keys count:cnt];
+#else
     NSInteger j = 0;
     for (NSInteger i = 0; i < cnt; i++) {
         
         if(objects[i] == nil || keys[i] == nil) {
-            QBLog(@"NSDictionary+QBSafe  添加的key 或  Obj有nil数据");
             break;;
         }
         j++;
     }
     return [self swizzling_initWithObjects:objects forKeys:keys count:j];
+#endif
 }
 
 @end

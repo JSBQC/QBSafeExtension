@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QBSafeExtension'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = "NSURL、NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止崩溃"
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description  = <<-DESC
-    TODO: 对NSURL、NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃.
+    TODO: 对NSURL、NSArray、NSMutableArray、NSDictionary和NSMutableDictionary添加分类，防止因为添加nil对象造成崩溃，只在DEBUG模式下直接暴露问题
                    DESC
 
   s.homepage         = 'https://github.com/JSBQC/QBSafeExtension'
